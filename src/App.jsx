@@ -1,9 +1,12 @@
 import "./App.css";
-import Luuletus from "./luuletus.jsx";
+import Luuletus from "./Luuletus";
 function App() {
-  return;
-  <Luuletus />
-
+  return (
+    <div className="container">
+      <Luuletus />
+      <Luuletus />
+    </div>
+  );
 }
 
 export default App;
